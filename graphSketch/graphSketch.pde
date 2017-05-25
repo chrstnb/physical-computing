@@ -18,7 +18,6 @@ import cc.arduino.*;
      val = port.read();
      val = map(val, 0, 255, 0, height);
    }
-   System.out.println(val);
    float targetVal = val;
    stroke(0);
    line(x, 0, x, height);
